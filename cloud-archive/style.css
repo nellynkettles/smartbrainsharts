@@ -6,3 +6,13 @@ body {
 
 
 }
+
+a {
+ 
+color: rgb(253, 253, 253);
+font-size: 136px;
+text-shadow: 2px 2px 10px yellow;
+text-decoration: none;
+border-bottom: 12px solid rgb(140, 182, 44);
+line-height: 100px;
+}
