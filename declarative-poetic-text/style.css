@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: wheat;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    padding: 25px;
+
+
+
+
+}
+
+h1 {
+  font-family: cursive;
+  position: fixed;
+  top: 5%;
+  left: 25%;
+  font-size: 72px;
+
+
+}
+
+
+.start {
+
+font-weight: bold;
+font-family: cursive;
+text-decoration: underline;
+text-shadow: 2px 2px 10px tomato;
+
+}
+
+.hashtag {
+
+font-weight: bold;
+font-family: monospace;
+color: white;
+font-size: 18px;
+
+}
+
+.itals {
+  font-style: italic;
+}
+
+.bolditals {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.repeat {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  border: 2px solid tomato;
+  padding: 10px;
+  position: relative;
+  left: 50%;
+}
+
+p {
+
+font-size: 22px;
+line-height: 22px;
+}
