@@ -1,3 +1,17 @@
+/* TO ADD DOUBLE SCROLL:
+
+1- two div containters: left and right
+2- SET OVERFLOW TO SCROLLING. OR HIDDEN IF YOU WANT.
+
+**YOU CAN ALSO SET OVERFLOW X AND OVERFLOW Y TO UN/LIMIT DIRECTIONAL SCROLLING
+
+TO LINK TO DIFFERENT ELEMENTS ON THE PAGE, 
+
+ */
+
+
+
+
 body {
     background-color: black;
     color: wheat;
@@ -20,7 +34,6 @@ h1 {
 text-shadow: 2px 2px 10px plum;
 
 }
-
 
 .start {
 
