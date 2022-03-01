@@ -3,6 +3,11 @@ background-color:
 padding: inherit;
 padding: 20px;
 
+-webkit-animation: bgcolor 20s infinite;
+animation: bgcolor 10s infinite;
+-webkit-animation-direction: alternate;
+animation-direction: alternate;
+font-family: monospace;
 }
 
 h1 {
@@ -14,13 +19,19 @@ font-weight: bold;
 
 h4 {
 
-  font-size: 130px;
+  font-size: 100px;
 }
 
 pre {
 
 font-size: 88px;
 
+
+}
+
+.padding {
+
+padding: 5vh;
 
 }
 
@@ -31,4 +42,40 @@ line-height: 25px;
 }
 .mia {
 background-color: lime;
+}
+
+.stop {
+font-size: 200px;
+font-weight: bold;
+
+}
+
+
+@keyframes bgcolor {
+
+0% {
+  background-color: #F9C449
+}
+
+20% {
+
+  background-color: #E8A49C
+}
+
+40% {
+background-color: #F04393
+}
+
+60% {
+  background-color: MediumPurple;
+}
+
+80% {
+  background-color: #3C4CAD
+}
+
+100% {
+  background-color: #240e8b
+}
+
 }
