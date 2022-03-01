@@ -1,0 +1,69 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* this ensures that everything will remain at 100%...if you don't have this you need to do extra math to calculate borders and margins. no unnecessary math! */
+
+
+body {
+background-color: PaleTurquoise;
+padding: 20px;
+}
+
+a {
+display: block;
+font-size: 20px;
+color: SlateBlue;
+margin-bottom: 16px;
+text-shadow: 2px 2px 10px lime;
+}
+
+.toc {
+
+}
+
+.left-col, .right-col {
+
+}
+/* THINK ABOUT MEDIA QUERIES IN A BUILD UP WAY. AS SOON AS IT HITS MID WIDTH NUMBER AND GOES UP, ITS GONNA DO THESE CHANGES */
+
+/* for smaller than laptop but larger than most mobile devices. anything you declare here will goon to your other */
+@media screen and (min-width: 768px){
+
+body {
+  background-color: PaleGreen;
+}
+
+a {
+font-size: 40px;
+  text-shadow: 2px 2px 10px CornflowerBlue;
+}
+
+.toc {
+    display: flex;
+    width: 100%;
+}
+
+.left-col, .right-col {
+  width: 50%;
+}
+
+}
+
+
+/* for larger than a laptop */
+@media screen and (min-width: 1400px){
+
+body {
+  background-color: PaleGoldenRod;
+}
+
+a {
+font-size: 60px;
+text-shadow: 2px 2px 10px lime;
+
+}
+
+}
