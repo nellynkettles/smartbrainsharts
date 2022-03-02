@@ -62,6 +62,10 @@ font-size: 18px;
 
 }
 
+.lyrics {
+  font-style: italic;
+}
+
 
 @keyframes bgcolor {
 
