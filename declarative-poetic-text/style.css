@@ -5,11 +5,17 @@
 
 **YOU CAN ALSO SET OVERFLOW X AND OVERFLOW Y TO UN/LIMIT DIRECTIONAL SCROLLING
 
-TO LINK TO DIFFERENT ELEMENTS ON THE PAGE, 
+TO LINK TO DIFFERENT ELEMENTS ON THE PAGE,
 
  */
 
 
+ html {
+ box-sizing: border-box;
+ }
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
 
 
 body {
@@ -79,4 +85,18 @@ p {
 
 font-size: 22px;
 line-height: 22px;
+}
+
+@media screen and (min-width: 768px) {
+
+body {
+  background-color: LightCoral;
+}
+
+}
+
+@media screen and (min-width:1400px) {
+
+body {
+  background-color: DarkSalmon;
 }

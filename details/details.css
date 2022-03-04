@@ -1,0 +1,57 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+
+background-color: DarkCyan;
+color: Snow;
+font-size: 20px;
+padding: 40px;
+}
+
+mark {
+
+font-family: monospace;
+font-size: 16px;
+
+}
+
+a {
+font-size: 20px;
+  text-shadow: 2px 2px 10px CornflowerBlue;
+}
+
+@media screen and (min-width: 768px) {
+
+
+body {
+background-color: Turquoise;
+color: Navy;
+font-size: 30px;
+padding: 50px;
+}
+
+mark {
+  font-size: 24px;
+}
+
+}
+
+@media screen and (min-width:1400px) {
+
+  body {
+    background-color: Aqua;
+    color: Indigo;
+    font-size: 40px;
+    padding: 70px;
+  }
+
+  mark {
+    font-size: 36px;
+  }
+
+}
