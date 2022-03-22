@@ -1,0 +1,75 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    color: wheat;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    padding: 25px;
+    font-size: 50px;
+
+
+
+
+}
+
+.hide1 {
+  display: none;
+}
+
+.hover1:hover + .hide1 {
+  display: block;
+}
+
+.hide2 {
+  display: none;
+}
+
+.hover2:hover + .hide2 {
+  display: block;
+}
+
+.hide3 {
+  display: none;
+}
+
+.hover3:hover + .hide3 {
+  display: block
+}
+
+.hide4 {
+  display: none;
+}
+
+.hover4:hover + .hide4 {
+  display: block;
+}
+
+.hide5 {
+  display: none;
+}
+
+.hover5:hover + .hide5 {
+  display: block;
+}
+
+
+@media screen and (min-width: 768px) {
+
+body {
+  background-color: LightCoral;
+}
+
+}
+
+@media screen and (min-width:1400px) {
+
+body {
+  background-color: DarkSalmon;
+}
