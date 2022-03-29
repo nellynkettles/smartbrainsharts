@@ -5,12 +5,12 @@ document.body.addEventListener("keyup", myDream)
 function myDream () {
   count++
   if (dreams.innerHTML === "a new tomorrow") {
-    dreams.innerHTML = "a better today";
-    dreams.innerHTML = "imagined reality";
-    dreams.innerHTML = "is life but this?"
-    dreams.innerHTML = "the marked ending of a new beginning"
+    dreams.innerHTML = "create a better today";
+    dreams.innerHTML = "imagine new realities";
+    dreams.innerHTML = "level the playing field"
+    dreams.innerHTML = "rest peacefully, radically"
   } else if (count >=5){
-    dreams.innerHTML = "to dream constantly is to think radically"
+    dreams.innerHTML = "to help imagine what my future could be"
   }
 
 }
