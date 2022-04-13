@@ -15,6 +15,7 @@ padding: 20px;
 a {
 display: block;
 font-size: 20px;
+font-family: monospace;
 color: SlateBlue;
 margin-bottom: 16px;
 text-shadow: 2px 2px 10px lime;
