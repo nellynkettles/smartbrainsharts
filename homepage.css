@@ -28,6 +28,20 @@ text-shadow: 2px 2px 10px lime;
 .left-col, .right-col {
 
 }
+
+h1 {
+  font-family: sans-serif;
+  color: Chocolate;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-style: italic;
+  color: blue;
+  font-size:15px;
+}
+
 /* THINK ABOUT MEDIA QUERIES IN A BUILD UP WAY. AS SOON AS IT HITS MID WIDTH NUMBER AND GOES UP, ITS GONNA DO THESE CHANGES */
 
 /* for smaller than laptop but larger than most mobile devices. anything you declare here will goon to your other */
@@ -38,7 +52,7 @@ body {
 }
 
 a {
-font-size: 20px;
+font-size: 30px;
   text-shadow: 2px 2px 10px CornflowerBlue;
 }
 
@@ -49,6 +63,14 @@ font-size: 20px;
 
 .left-col, .right-col {
   width: 50%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
 }
 
 }
@@ -65,6 +87,14 @@ a {
 font-size: 40px;
 text-shadow: 2px 2px 10px lime;
 
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
 }
 
 }
