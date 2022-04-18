@@ -11,10 +11,8 @@ src: url(SpaceGrotesk-Medium.ttf);
 }
 
 body {
-    background-image: url(imgs/poem.webp);
     background-color: black;
     color: white;
-    text-shadow: 2px 2px black;
     padding: 25px;
     font-family: SpaceGrotesk-Medium;
 
@@ -27,26 +25,24 @@ body {
 
 .maintitle {
   text-transform: uppercase;
-  font-size: 90px;
+  font-size: 20px;
   line-height: 5px;
-  color: #FAE88C
+  color: #white;
 }
 
+
+
 h2 {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 a {
-  color: lime;
-  font-size: 16px;
+  color: #FAE88C;
+  font-size: 40px;
 }
 
 a:visited {
-  color: lime;
-}
-
-.highlight {
-  background-color: black;
+  color: #FAE88C;
 }
 
 
@@ -74,33 +70,36 @@ a:visited {
   display: block
 }
 
-.hide4 {
-  display: none;
-}
-
-.hover4:hover + .hide4 {
-  display: block;
-}
-
-.hide5 {
-  display: none;
-}
-
-.hover5:hover + .hide5 {
-  display: block;
-}
-
-
 @media screen and (min-width: 768px) {
 
-body {
-  font-size: 35px;
+  .maintitle {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 5px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+a {
+  font-size: 60px;
 }
 
 }
 
 @media screen and (min-width:1400px) {
 
-body {
-  font-size: 45px;
+  .maintitle {
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 5px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+a {
+  font-size: 100px;
 }
