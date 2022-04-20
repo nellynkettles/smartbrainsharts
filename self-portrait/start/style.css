@@ -12,62 +12,89 @@ src: url(SpaceGrotesk-Medium.ttf);
 
 body {
     background-color: black;
-    color: white;
+    color: #FAE88C;
     padding: 25px;
     font-family: SpaceGrotesk-Medium;
-
     font-size: 20px;
-
-
-
-
 }
 
-.maintitle {
+/* .maintitle {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 70px;
   line-height: 5px;
   color: #white;
+  text-decoration: none;
 }
 
+.maintitle:hover {
+  color: #FAE88C;
+} */
 
 
 h2 {
-  font-size: 15px;
+  font-size: 50px;
+  color: white;
 }
 
 a {
-  color: #FAE88C;
-  font-size: 40px;
+  font-size: 70px;
+  line-height: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 a:visited {
+  color: white;
+}
+
+a:hover {
   color: #FAE88C;
 }
 
+#hoverlink a {
+  color: #FAE88C
+  font-size: 80px;
+  text-transform: lowercase;
+  text-decoration: underline;
+  line-height: 120px;
+}
+
+#hoverlink a:hover {
+  text-decoration: none;
+}
+
+#hoverlink a:visited {
+  color: #FAE88C;
+}
 
 .hide1 {
   display: none;
+  color: white;
 }
 
 .hover1:hover + .hide1 {
   display: block;
+  font-size: 40px;
 }
 
 .hide2 {
   display: none;
+  color: white;
 }
 
 .hover2:hover + .hide2 {
   display: block;
+  font-size: 40px;
 }
 
 .hide3 {
   display: none;
+  color: white;
 }
 
 .hover3:hover + .hide3 {
   display: block
+  font-size: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -97,7 +124,7 @@ a {
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
 a {
