@@ -5,24 +5,15 @@ box-sizing: border-box;
   box-sizing: inherit;
 }
 
-@font-face {
-font-family: SpaceGrotesk-Medium
-src: url(SpaceGrotesk-Medium.ttf);
-}
-
 body {
     background-image: url(imgs/poem.webp);
     background-color: black;
     color: white;
     text-shadow: 2px 2px black;
     padding: 25px;
-    font-family: SpaceGrotesk-Medium;
-
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
     font-size: 20px;
-
-
-
-
 }
 
 .maintitle {
@@ -71,7 +62,7 @@ a:visited {
 }
 
 .hover3:hover + .hide3 {
-  display: block
+  display: block;
 }
 
 

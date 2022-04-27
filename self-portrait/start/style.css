@@ -5,16 +5,16 @@ box-sizing: border-box;
   box-sizing: inherit;
 }
 
-@font-face {
-font-family: SpaceGrotesk-Medium
-src: url(SpaceGrotesk-Medium.ttf);
-}
-
 body {
-    background-color: black;
+  background-image: url(../imgs/poem.webp);
+  background-repeat: no-repeat;
+  background-size: 250%;
+  background-color: black;
+  background-clip: inherit;
     color: #FAE88C;
     padding: 25px;
-    font-family: SpaceGrotesk-Medium;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
     font-size: 20px;
 }
 
@@ -51,10 +51,11 @@ a:hover {
   color: #FAE88C;
 }
 
-#hoverlink a {
-  color: #FAE88C
+#hoverlink  a {
+  color: #FAE88C;
+  text-shadow: 2px 2px black;
   font-size: 80px;
-  text-transform: lowercase;
+  text-transform: none;
   text-decoration: underline;
   line-height: 120px;
 }
@@ -93,7 +94,7 @@ a:hover {
 }
 
 .hover3:hover + .hide3 {
-  display: block
+  display: block;
   font-size: 40px;
 }
 
@@ -116,6 +117,10 @@ a {
 }
 
 @media screen and (min-width:1400px) {
+
+body {
+  background-size: 100%;
+}
 
   .maintitle {
     text-transform: uppercase;
