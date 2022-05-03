@@ -36,6 +36,15 @@ h2 {
   color: white;
 }
 
+.portrait a {
+  font-size: 30px;
+  color: blue;
+  text-transform: none;
+  text-decoration: underline;
+  line-height: 50px;
+  text-shadow: 2px 2px black;
+}
+
 a {
   font-size: 70px;
   line-height: 5px;
