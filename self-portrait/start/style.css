@@ -36,7 +36,7 @@ h2 {
   color: white;
 }
 
-.portrait a {
+#portrait a {
   font-size: 30px;
   text-transform: none;
   text-decoration: underline;
