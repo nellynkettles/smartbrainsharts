@@ -1,0 +1,81 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-image: url(epilogue.jpg);
+    background-color: black;
+    color: white;
+    text-shadow: 4px 4px black;
+    padding: 25px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.maintitle {
+  text-transform: uppercase;
+  font-size: 90px;
+  line-height: 5px;
+  color: #FAE88C
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  color: lime;
+  font-size: 16px;
+}
+
+a:visited {
+  color: lime;
+}
+
+.highlight {
+  background-color: black;
+}
+
+
+.hide1 {
+  display: none;
+}
+
+.hover1:hover + .hide1 {
+  display: block;
+}
+
+.hide2 {
+  display: none;
+}
+
+.hover2:hover + .hide2 {
+  display: block;
+}
+
+.hide3 {
+  display: none;
+}
+
+.hover3:hover + .hide3 {
+  display: block;
+}
+
+
+@media screen and (min-width: 768px) {
+
+body {
+  font-size: 35px;
+}
+
+}
+
+@media screen and (min-width:1400px) {
+
+body {
+  font-size: 45px;
+}
